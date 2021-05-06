@@ -309,17 +309,20 @@ body {
   * Desktop First
   */
 @media screen and (max-width: 1620px) {
+  .s__game {
+    height: auto;
+  }
+  .s__game .container {
+    margin: 250px auto auto;
+  }
   .check {
-    top: 10%;
+    top: 20%;
     left: 50%;
     right: auto;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .s__game .container {
-    margin: 250px auto auto;
-  }
   .title-h1 {
     font-size: 32px;
   }
