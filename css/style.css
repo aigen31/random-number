@@ -308,7 +308,7 @@ body {
 /**
   * Desktop First
   */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1620px) {
   .check {
     top: 10%;
     left: 50%;
@@ -317,6 +317,9 @@ body {
 }
 
 @media screen and (max-width: 480px) {
+  .s__game .container {
+    margin: 250px auto auto;
+  }
   .title-h1 {
     font-size: 32px;
   }
