@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AiGen31 - Угадай число</title>
+  </head>
+
+  <body>
+		<div class="check">
+			<div class="line-first"></div>
+			<div class="line-second"></div>
+			<div class="overflow"></div>
+		</div>
+
+		<section class="s__game">
+			<div class="container">
+		    <h1 class="title-h1 text-center">"Угадай число"</h1>
+
+		    <p class="text-center">Вам дано случайное число от <span>1 до 100</span> <br>
+				У вас есть 10 попыток для выигрыша.
+				Мы будем сообщать вам о том, выше или ниже ваше выбранное число</p>
+
+		    <div class="form">
+		      <label for="guessField">Введите число </label>
+		      <input type="text" id="guessField" class="guessField">
+		      <input type="submit" value="Отправить" class="guessSubmit button">
+		    </div>
+
+		    <div class="resultParas hidden">
+		      <p class="guesses"></p>
+		      <p class="lastResult"></p>
+		      <p class="lowOrHi"></p>
+		    </div>
+			</div>
+		</section>
+
+		<link rel="stylesheet" href="css/style.min.css">
+
+    <script src="js/common.js" charset="utf-8"></script>
+  </body>
+</html>
